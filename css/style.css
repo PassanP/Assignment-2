@@ -116,7 +116,6 @@ body{
 /*home-intro*/
 .home-intro {
     background-color:whitesmoke;
-    
     padding: 2rem 0;
     border-radius: 1rem;;
     margin-top: 2rem;;
@@ -189,17 +188,17 @@ body{
     
     /* Responsive:  3 columns on wider screens */
 
-@media (min-width: 900px) {
-  .posts__grid {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  }
-}
-/* Mobile layout: stack posts in 1 column on screens 600px or less */
-@media (max-width: 600px) {
-  .posts__grid {
-    grid-template-columns: 1fr; /* Stack cards in 1 column */
-  }
-}
+    @media (min-width: 900px) {
+    .posts__grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    }
+    }
+    /* Mobile layout: stack posts in 1 column on screens 600px or less */
+    @media (max-width: 600px) {
+    .posts__grid {
+        grid-template-columns: 1fr; /* Stack cards in 1 column */
+    }
+    }
 
 
   .posts__preview {
@@ -210,8 +209,13 @@ body{
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
     text-decoration: none;
-    transition: transform 0.3s ease; 
-    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+    }
+
+  .posts__preview:hover{
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
   }
 
   
@@ -247,6 +251,7 @@ body{
 .button:hover {
   background-color: #4a44cc;
 }
+
       
 /*Footer*/
 .site-footer {
@@ -273,6 +278,13 @@ body{
     list-style: none;
    
 }
+
+
+
+
+
+
+
 
 /*css for post.html*/
 .post__container {
