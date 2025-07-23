@@ -1,71 +1,69 @@
 <!DOCTYPE html>
-<html en="lang">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
           Mindful Moments: Living with Purpose
         </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css"/>
     </head>
 
     <body>
         <header class="site-header">
-            <div class="conntainer">
-                <div class="flex">
                     <div class="site-header__logo">
+                        <a href="#">
                         <img src="assets/wellness-logo.jpg"
-                            alt="Mindful Moments Logo">
-                     </div>
+                            alt="Mindful Moments Logo" class="logo-flip">
+                        </a>                     
+                    </div>
                      <nav class="site-header__nav">
-                        <ul class="flex">
-                            <Li><a href="#home">Home</a></Li>
-                            <li><a href="#post">Post</a></li>
+                        <ul>
+                            <Li><a href="/index.html">Home</a></Li>
+                            <li><a href="/post.html">Post</a></li>
                             <li><a href="#gallery">Gallery</a></li>
                         </ul>
                     </nav>
-                </div>
-            </div>
         </header>
 
         <main>
             <!--Banner-->
             <section class="home-banner">
+                <video class="home-banner__video" autoplay muted loop>
+                    <source src="assets/banner-2.mp4" type="video/mp4">
+                    
+                </video>
                 <div class="home-banner__content">
                     <div class="container">
-                        <div class="grid">
-                            <div class="hime-banner__text">
-                                <h1>
-                                    Mindful Moments: Living with Purpose
-                                </h1>
-                                <p>
-                                    Explore wellness, mindfulness, and self-care 
-                                    practices to nourish your mind, body, and soul. Learn pratices of the emboded self.
-                                </p>
-                            </div>
-                        </div>
+                    <div class="home-banner__text">
+                        <h1>Mindful Moments: Living with Purpose</h1>
+                        <p>Explore wellness, mindfulness, and self-care practices to 
+                                    nourish your mind, body, and soul. </p>
+                    </div>
                     </div>
                 </div>
             </section>
             
             <section class="home-intro">
                 <div class="container">
-                    <div class="grid">
+                    
                         <div class="home-intro__image">
                             <img src="assets/wellness.jpg"
-                             alt="Wellness Image"
+                             alt="Wellness Image">
                         </div>
                         
-                        <div class="home-intro__content">
-                            <h2>Welcome to Mindful Moments</h2>
-                            <p>
-                                Nourish your mind, body, and soul through wellness
-                                 and mindfulness practices.
-                            </p>
-                            <a class="button">Join us</a>
+                            <div class="home-intro__content">
+                                <h2>Welcome to Mindful Moments</h2>
+                                <p>
+                                    Nourish your mind, body, and soul through wellness
+                                    and mindfulness practices.
+                                </p>
+                                <a class="button">Join us</a>
 
-                        </div>
-                    </div>
+                            </div>
                 </div>
             </section>
             
@@ -77,22 +75,25 @@
                         </div>
                     </div>
                     
-                    <div class="posts__loop">
-                        <div class="grid">
-                            <div class="posts__preview grid">
+                    <div class="posts__grid">
+                        <a href="post.html" class="posts__preview">
+                            
                                 <div class="posts__image">
                                     <img src="assets/morning-meditation.jpg"
                                      alt="morning meditation">
-                                </div>
+                                </div>  
                             
                                 <div class="posts__content">
                                     <h4>5-Minute Morning Meditations</h4>
                                     <p>Start your day with clarity and calm using these 
                                     quick meditation techniques.</p>
+                                     <span class="button">Explore</span>
                                 </div>
-                            </div>
+                            
+                        </a>
 
-                             <div class="posts__preview grid">
+                        <a href="post.html" class="posts__preview">
+                             
                                 <div class="posts__image">
                                     <img src="assets/Create-Healthy-Habits-1.png"
                                      alt="Healthy eating">
@@ -102,10 +103,13 @@
                                     <h4>Mindful Eating: A Beginner’s Guide</h4>
                                     <p>Transform your relationship with food through 
                                        mindfulness and gratitude..</p>
+                                        <span class="button">Explore</span>
                                 </div>
-                            </div>
+                            
+                        </a>
 
-                             <div class="posts__preview grid">
+                        <a href="post.html" class="posts__preview">
+                             
                                 <div class="posts__image">
                                     <img src="assets/journal-prompts-for-self-growth.jpg"
                                      alt="journal-promts">
@@ -115,10 +119,13 @@
                                     <h4> Daily Journal Prompts for Self-Growth</h4>
                                     <p>  Discover powerful journaling questions that 
                                          foster reflection and inner peace.</p>
+                                          <span class="button">Explore</span>
                                 </div>
-                            </div>
+                            
+                        </a>
 
-                             <div class="posts__preview grid">
+                        <a href="post.html" class="posts__preview">
+                             
                                 <div class="posts__image">
                                     <img src="assets/say-no.jpg"
                                      alt="The Power of Saying No">
@@ -128,10 +135,13 @@
                                     <h4>The Power of Saying ‘No’</h4>
                                     <p> Learn how setting 
                                         boundaries can protect your energy and mental health..</p>
+                                         <span class="button">Explore</span>
                                 </div>
-                            </div>
+                            
+                        </a>
 
-                             <div class="posts__preview grid">
+                        <a href="post.html" class="posts__preview">
+                            
                                 <div class="posts__image">
                                     <img src="assets/yoga-poses-for-back-pain.webp"
                                      alt="Yoga Poses for Back Pain">
@@ -141,10 +151,13 @@
                                     <h4>Yoga Poses for Back Pain</h4>
                                     <p>Start your day with clarity and calm using these 
                                        quick meditation techniques.</p>
+                                        <span class="button">Explore</span>
                                 </div>
-                            </div>
+                            
+                        </a>
 
-                             <div class="posts__preview grid">
+                        <a href="post.html" class="posts__preview">
+                             
                                 <div class="posts__image">
                                     <img src="assets/digital-detox.jpg"
                                      alt="Digital Detox Tips">
@@ -154,9 +167,11 @@
                                     <h4>Digital Detox Tips</h4>
                                     <p>Unplug to recharge: reduce screen 
                                        time and reconnect with the present moment..</p>
+                                        <span class="button">Explore</span>
                                 </div>
-                            </div>
-                        </div>
+                            
+                        </a>    
+                        
                     </div>
                 </div>
             </section>            
@@ -166,16 +181,17 @@
         </main>
 
         <footer class="site-footer">
-            <div class="containr">
+            <div class="container">
                 <div class="flex wrap">
                     <div class="site-footer__logo">
                         <a href="#">
-                            <img src="assets/wellness.jpg">
+                            <img src="assets/wellness-logo.jpg">
+                    
                         </a>
                     </div>
                     <nav class="site-footer__contact">
                         <ul>
-                            <li><a href="#">enample@email.com</a></li>
+                            <li><a href="#"> mindfulmoments@email.com"</a></li>
                             <li><a href="#"> 123 456 7890</a></li>
                         </ul>
                     </nav>
