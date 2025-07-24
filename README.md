@@ -15,6 +15,9 @@ This project is a static blog homepage built using **HTML** and **CSS**, designe
 
 The goal is to create an inviting and visually engaging layout that reflects the blog's core values of simplicity, self-care, and intentional living.
 
+You can find the repository at https://github.com/PassanP/Assignment-2
+
+
 
 
 
