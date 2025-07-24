@@ -1,9 +1,9 @@
- Mindful Moments: Living with Purpose
+# Mindful Moments: Living with Purpose
 
 Welcome to the homepage of **Mindful Moments**, a responsive wellness & lifestyle blog dedicated to purposeful living and mindful habits.
 
 ---
- Project Description
+## Project Description
 
 This project is a static blog homepage built using **HTML** and **CSS**, designed with modern UI features including:
 
