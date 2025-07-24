@@ -3,8 +3,7 @@
 Welcome to the homepage of **Mindful Moments**, a responsive wellness & lifestyle blog dedicated to purposeful living and mindful habits.
 
 ---
-
-## 📝 Project Description
+ Project Description
 
 This project is a static blog homepage built using **HTML** and **CSS**, designed with modern UI features including:
 
@@ -18,16 +17,6 @@ The goal is to create an inviting and visually engaging layout that reflects the
 
 
 
-## 📂 Folder Structure
 
-mindful-moments-blog/
-│
-├── index.html
-├── style.css
-├── README.md
-├── /images
-│ └── banner.mp4, logo.png, etc.
-├── /fonts
-│ └── playfair.ttf, etc.
 
 
