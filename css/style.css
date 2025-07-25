@@ -65,10 +65,11 @@ body{
 }
 
 /* Ensure the video fills the banner */
-.home-banner video {
+.home-banner img {
   width: 100%;
-  height: auto;
+  height:100vh;
   display: block;
+  object-fit: cover;
 }
 
 /* Position the text content absolutely over the video */
@@ -101,7 +102,7 @@ body{
 
 }
 .home-banner__text h1 {
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 2vw, 3rem);
   margin-bottom: 1rem;
 }
 
@@ -180,6 +181,7 @@ body{
         gap: 2rem;
         padding: 1rem;
        
+        
     }
     .post__grid:hover {
         transform: scale(1.02);
@@ -297,6 +299,8 @@ body{
     "footer";
   grid-template-columns: 1fr;
   gap: 2rem;
+  align-items: start;
+ 
 }
 
 /* Header */
@@ -361,7 +365,7 @@ body{
 
 .post-header__banner img {
   width: 100%;
-  max-height: auto;
+  max-height: 100vh;
   object-fit: cover;
   border-radius: 0.5rem;
   object-position: center;
@@ -387,9 +391,11 @@ main {
 .post-sidebar {
   grid-area: sidebar;
   background-color: #f8f8f8;
-  padding: 1rem;
+  padding: .5rem;
   border-left: 4px solid #cfa18d;
   border-radius: 0.5rem;
+   align-self: start;
+   height: auto;  
 }
 
 .post-sidebar h2 {
@@ -427,7 +433,7 @@ main {
 }
 
 /* Responsive Layout for Larger Screens */
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .post__container {
     grid-template-areas:
       "header    header"
